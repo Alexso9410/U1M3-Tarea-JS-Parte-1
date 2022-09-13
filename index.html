@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea de Javascript parte 1</title>
+    <script tipye="text/javascript">
+
+        const DistanciaEnMetros = Number(prompt('Ingrese la distancia total en metros'));
+
+        if (DistanciaEnMetros <= 1000) {
+            console.log('El medio de transporte apropiado para recorrerlo es a pie')
+        } else if (DistanciaEnMetros <= 10000) {
+            console.log('El medio de transporte apropiado para recorrerlo es en bicicleta')
+        } else if (DistanciaEnMetros <= 30000) {
+            console.log('El medio de transporte apropiado para recorrerlo es en colectivo')
+        }
+        else if (DistanciaEnMetros <= 100000) {
+            console.log('El medio de transporte apropiado para recorrerlo es en auto')
+        }
+
+        else if (DistanciaEnMetros >= 100000) {
+            console.log('El medio de transporte apropiado para recorrerlo es en avion')
+        }
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
